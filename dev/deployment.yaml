@@ -1,4 +1,4 @@
-apiVersion: apps/v1
+apiVersion: apps/v1/Deployment:spring-boot-second-app
 kind: Deployment
 metadata:
   name: spring-boot-second-app
