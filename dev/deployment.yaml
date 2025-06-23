@@ -10,7 +10,7 @@ spec:
     template:
       metadata:
         labels:
-          app: spring-boot-second-app
+          app: spring-boot-second-app-java
       spec:
         containers:
         - name : app
