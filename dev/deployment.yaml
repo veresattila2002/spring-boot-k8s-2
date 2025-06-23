@@ -13,7 +13,7 @@ spec:
           app: spring-boot-second-apps
       spec:
         containers:
-          -name : app
+        - name : app
           image: ghcr.io/veresattila2002/helloworldsecondapp:1.0
           ports:
           -containerPort: 8080
