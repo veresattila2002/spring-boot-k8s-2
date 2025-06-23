@@ -16,4 +16,4 @@ spec:
         - name : app
           image: ghcr.io/veresattila2002/helloworldsecondapp:1.0
           ports:
-          -containerPort: 8080
+          - containerPort: 8080
