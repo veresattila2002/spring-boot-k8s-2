@@ -1,7 +1,7 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name:spring-boot-second-app
+  name: spring-boot-second-app
 spec:
   replicas: 1
   selector:
@@ -16,4 +16,4 @@ spec:
           -name : app
           image: ghcr.io/veresattila2002/helloworldsecondapp:1.0
           ports:
-          -containerPort:8080
+          -containerPort: 8080
