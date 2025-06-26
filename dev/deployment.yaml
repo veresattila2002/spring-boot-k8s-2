@@ -14,6 +14,6 @@ spec:
     spec:
       containers:
       - name : app
-        image: ghcr.io/veresattila2002/second_app:8.0
+        image: ghcr.io/veresattila2002/second_app:9.0
         ports:
         - containerPort: 8081
