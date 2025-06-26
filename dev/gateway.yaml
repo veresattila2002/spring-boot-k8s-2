@@ -8,8 +8,14 @@ spec:
     istio: ingressgateway
   servers:
     - port:
+        number: 8080
+        name: firstapp
+        protocol: HTTP 
+      hosts:
+        - "*"
+    - port:
         number: 80
-        name: second-app
+        name: secondapp
         protocol: HTTP 
       hosts:
         - "*"
