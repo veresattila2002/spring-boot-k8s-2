@@ -5,7 +5,7 @@ metadata:
   namespace: spring-boot-second-app
 spec:
   hosts:
-    - spring-boot-second-app.spring-boot-second-app.svc.cluster.local
+    - "*"
   gateways:
     - spring-boot-app-gateway
   http:
