@@ -7,7 +7,7 @@ spec:
   hosts:
     - "*"
   gateways:
-    - spring-boot-app-gateway
+    - istio-system/spring-boot-app-gateway
   http:
     - match:
       - uri:
