@@ -13,7 +13,7 @@ spec:
       - uri:
         prefix: /getmessage
 
-    - route:
+      route:
       - destination:
           host: spring-boot-second-app.spring-boot-second-app.svc.cluster.local
         port:
