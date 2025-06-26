@@ -15,6 +15,6 @@ spec:
 
       route:
       - destination:
-          host: spring-boot-second-app.spring-boot-second-app.svc.cluster.local
+          host: spring-boot-second-app.spring-boot-second-app.svc.cluster.local:80
           port:
             number: 8081
