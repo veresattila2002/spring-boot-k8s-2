@@ -1,0 +1,20 @@
+apiVersion: networking.istio.io/v1beta1
+kind: VirtualService
+metadata:
+  name: spring-boot-second-app-vs
+  namespace: spring-boot-second-app
+spec:
+  hosts:
+    - spring-boot-second-app.spring-boot-second-app.svc.cluster.local
+  gateways:
+    - spring-boot-app-gateway
+  http:
+    - match:
+      - uri:
+        prefix: /getmessage
+
+    - route:
+      - destination:
+          host: spring-boot-second-app.spring-boot-second-app.svc.cluster.local
+        port:
+          number: 8081

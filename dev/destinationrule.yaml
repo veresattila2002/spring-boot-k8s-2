@@ -1,0 +1,10 @@
+apiVersion: networking.istio.io/v1betav1
+kind: DestinationRule
+metadata:
+  name: spring-boot-second-app
+  namespace: spring-boot-second-app
+spec:
+  host: spring-boot-second-app.spring-boot-second-app.svc.cluster.local
+  trafficPolicy:
+    tls:
+      mode: ISTIO_MUTUAL
