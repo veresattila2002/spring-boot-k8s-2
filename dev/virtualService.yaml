@@ -18,3 +18,4 @@ spec:
           host: spring-boot-second-app.spring-boot-second-app.svc.cluster.local
           port:
             number: 80
+            name: asr
