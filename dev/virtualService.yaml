@@ -5,7 +5,7 @@ metadata:
   namespace: spring-boot-second-app
 spec:
   hosts:
-    - "*"
+    - "spring-boot-second-app.127.0.0.1.nip.io"
   gateways:
     - istio-system/spring-boot-app-gateway
   http:
@@ -17,4 +17,8 @@ spec:
       - destination:
           host: spring-boot-second-app.spring-boot-second-app.svc.cluster.local
           port:
+<<<<<<< HEAD
             number: 80
+=======
+            number: 80
+>>>>>>> 9618fcb (nip io add)
