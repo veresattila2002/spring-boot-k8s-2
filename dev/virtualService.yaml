@@ -12,9 +12,8 @@ spec:
     - match:
       - uri:
           prefix: /getmessage
-
       route:
       - destination:
           host: spring-boot-second-app.spring-boot-second-app.svc.cluster.local
           port:
-            number: 80
+            number: 8081
