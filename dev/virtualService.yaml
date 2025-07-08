@@ -6,6 +6,7 @@ metadata:
 spec:
   hosts:
     - "app2.demo.hu"
+    - "192.168.49.2"
   gateways:
     - istio-system/spring-boot-app-gateway
   http:
